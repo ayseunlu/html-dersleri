@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Elemanları</title>
+	<!--internal CSS -->
+	<style>
+	/* CSSleri style içine yazıyoruz. */
+	input{
+		margin-bottom: 10px;
+	}
+	div{
+		margin-bottom: 10px;
+	}
+
+	</style>
+</head>
+<body style="background: aqua;">
+<!-- İnline CSS herhangi bir etiketin içine yazılan CSS için kullanılıyor -->
+<h1>Bizimle İletişimde Kalın</h1>
+<hr>
+<form action="">
+	<label for=""> Adınız Soyadınız:</label>
+	<input type="text" placeholder="Adınız Soyadınız">
+	<br>
+	<!-- br kendisinden sonra gelen nesnelerin alt satıra geçmesini sağlıyor. -->
+	<label for="">E-Posta Adresiniz:</label>
+	<input type="email" placeholder="E-Posta Adresiniz">
+	<br>
+	<label for="">Şifreniz:</label>
+	<input type="password" placeholder="Şifreniz">
+	<div>
+	<label for="">Yaşadığınız Şehir:</label>
+	<!-- Select açılır menülerde kullanılan bir form özelliğidir -->
+	<select name="" id="">
+		<option value="istanbul">İstanbul</option>
+		<option value="izmir">İzmir</option>
+		<option value="adana">Adana</option>
+		<option value="trabzon">Trabzon</option>
+		<option value="rize">Rize</option>
+		<option value="konya">Konya</option>
+	</select>
+	</div>
+	<!-- select>option*50-->
+	<div>
+	<label for="">Cinsiyetiniz:</label>
+	<label for="">Kadın
+	<input type="radio" name="Cinsiyetiniz" value="radio" id="kadin">
+	</label>
+	<label for="">Erkek
+	<input type="radio" name="Cinsiyetiniz" value="radio" id="adam">
+	</label>
+	<label for="">Belirtmek İstemiyorum
+	<input type="radio" name="Cinsiyetiniz" value="radio" id="belirtmek istemiyorum">
+	</label>
+	</div>
+<div>
+	<label for="">Hobileriniz: </label>
+	<label for="">Yüzmek
+	<input type="checkbox" id="hobi1"></label>
+	<label for="">Satranç
+	<input type="checkbox" id="hobi2"></label>
+	<label for="">Fotoğraf Çekmek
+	<input type="checkbox" id="hobi3"></label>
+	<label for="">Resim Yapmak
+	<input type="checkbox" id="hobi4"></label>
+	<label for="">Kitap Okumak
+	<input type="checkbox" id="hobi5"></label>
+</div>
+<input type="button" value="Gönder">
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wiframe2</title>
+	<style>
+		body{
+			background-color: rgba(246,245,209,0.60);
+		}
+		.width-300{
+			width: 300px;
+			float: left;
+			height: auto;
+		}
+		.width-570{
+			width: 570px;
+			float: left;
+			height: auto;
+		}
+		#sari-kutu{
+			height: 500px;
+			background-color: yellow;
+			line-height: 500px;
+			color: green;
+		}
+		main{
+			width: 1200px;
+			height: auto;
+			margin: auto;
+			/*margin auto kutunun sayfa ortasında yer almasını sağlıyoruz*/
+		}
+		header{
+			background-color: pink;
+			height: 300px;
+			text-align: center;
+			width: 1200px;
+			line-height: 300px
+		}
+		nav{
+			width: 1200px;
+			height: 42px;
+			background-color: blue;
+			color: whitesmoke;
+			text-align: center;
+			line-height: 42px;
+			margin: 15px 0;
+			float: left;
+		}
+		section{
+			width: 1200px;
+			height: 500px;
+			text-align: center;
+			float: left;
+			margin-bottom: 15px;
+		}
+		#turuncu-kutu{
+			width: 570px;
+			text-align: center;
+			float: left;
+			background-color: darkorange;
+			height: 235px;
+			margin: 0 15px 0 15px;
+			line-height: 240px;
+		}
+		#yesil-kutu{
+			width: 570px;
+			height: 250px;
+			background-color: green;
+			line-height: 250px;
+			margin: 15px 15px 0 15px;
+			float: left;
+		}
+		figure{
+			width: 300px;
+			height: 235px;
+			background-color: mediumpurple;
+			color: whitesmoke;
+			float: left;
+			text-align: center;
+			margin: 0 0 15px 30px;
+			line-height: 235px;
+		}
+		aside{
+			width: 300px;
+			height: 250px;
+			background-color: blueviolet;
+			color: whitesmoke;
+			float: left;
+			text-align: center;
+			margin: 0 0 15px 30px;
+			line-height: 250px;
+
+		}
+		footer{
+			width: 1200px;
+			height: 42px;
+			background-color: black;
+			text-align: center;
+			line-height: 42px;
+			margin: 0px 0;
+			float: left;
+			color: white
+		}
+	</style>
+</head>
+<body>
+	<!-- main başlangıç -->
+	<main>
+		<!-- header başlangıç -->
+		<header>
+			Üst kısım
+		</header>
+		<!-- header bitiş -->
+		<!-- nav başlangıç -->
+		<nav>
+			Menümüz
+		</nav>
+		<!-- nav bitiş -->
+		<!-- section başlangıç -->
+		<section>
+			<!-- article başlangıç -->
+			<article id="sari-kutu" class="width-300">
+				1.Kutu
+			</article>
+			<!-- article bitiş -->
+			<!-- orta kısım -->
+			<article class="width-570">
+				<div id="turuncu-kutu">
+				Orta Üst alan
+				</div>
+				<div id="yesil-kutu">
+				Orta Alt alan
+				</div>
+			</article>
+			<!-- orta kısım -->
+			<!-- sağ taraf başlangıç -->
+			<article class="width-300">
+				<figure>
+					Figure Resim Alanı
+				</figure>
+				<aside>
+					Aside
+				</aside>
+			</article>
+			<!-- sağ taraf bitiş -->
+
+		</section>
+		<!-- section bitiş -->
+		<!-- footer başlangıç -->
+		<footer>
+			En alt kısım
+		</footer>
+		<!-- footer bitiş -->
+
+
+	</main>
+	<!-- main bitiş -->
+</body>
+</html>
